@@ -1,0 +1,58 @@
+<!doctype  html>       
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<script type="text/javascript" src="./resources/js/validation.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
+
+
+
+<title>충전기등록</title>
+</head>
+
+<body>
+ <section>
+	<h1>충전기등록</h1>
+    <br/>
+    <form action="./CharReg.jsp" method="post">
+    <div class="int-area">
+        <label for="name">충전기 이름</label>
+        <input type="text" name="charger_name" id="name" autocomplete="off" >
+    </div>
+            
+    <div class="int-area">
+        <label for="num">충전기 포트개수</label>
+        <input type="text" name="charger_port" id="name" autocomplete="off" >
+    </div>
+            
+    <div class="int-area">
+        <label for="count">충전기 출력</label>
+        <input type="text" name="charger_output" id="name" autocomplete="off" >
+    </div>
+            
+    <div class="int-area">
+        <label for="storage">급속 충전여부</label>
+        <input type="text" name="charger_quick" id="name" autocomplete="off" >
+    </div>
+    
+     <div class="int-area">
+        <label for="storage">대여일</label>
+        <input type="text" name="charger_date" id="name" autocomplete="off" >
+    </div>
+    <br/>
+
+    <div class="btn-area">
+        <input id="regBtn"  class="button_form" type="submit" value="등록">
+        <input class="button_form" type="reset"  value="취 소">
+    </div>
+    </form>
+    <br/>
+    <div class="btn-area">
+        <a href="CharHome.jsp"> <button id="btn2">돌아가기</button></a>
+    </div>
+    <br/>
+    <br/>  
+		
+</section>
+
+</body>
+</html>
